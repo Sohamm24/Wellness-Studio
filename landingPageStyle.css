@@ -73,17 +73,20 @@ header button a:hover{
     color:white;
 }
 .Box1{
-    background:url(landingPage.jpg);
-    background-repeat: no-repeat;
-    background-size:100%;
-    background-position: center;
-    padding-top:4px;
-    padding-bottom:140px;
+    height: 200px;
+    display: block;
+}
+.landingPageimg{
+    height:200px;
+    width:100%;
+    display: block;
+    justify-content: center;
     }
 .Box1 h1{
-    padding-left: 25%;
-    transform:translate3d(-100px,40px,0px);
     font-size:medium;
+    padding-left: 40%;
+    margin-right:20px;
+    transform: translate3d(20px,-140px,0px );
 }
 .content{
     padding-left:24%;
@@ -253,13 +256,7 @@ input::placeholder {
        transform: translateX(10px);
        font-size: 9px;
      }
-    .Box1{
-        height: 1px;
-    }
-    .Box1 h1{
-       font-size: small;
-       transform: translate3d(5px,50px,0px);
-    }
+   
     .contentLine{
         display:none;
     }
