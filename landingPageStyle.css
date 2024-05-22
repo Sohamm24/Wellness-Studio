@@ -73,7 +73,7 @@ header button a:hover{
     color:white;
 }
 .Box1{
-    background-image:url(landingPage.jpg);
+    background-image:url(..landingPage.jpg);
     background-repeat: no-repeat;
     background-size:100%;
     background-position: center;
